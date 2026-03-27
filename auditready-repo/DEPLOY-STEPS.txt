@@ -1,0 +1,18 @@
+1. Dézipper ce dossier
+2. Créer un repo GitHub vide
+3. Mettre tous les fichiers dedans
+4. Push sur GitHub
+5. Importer le repo dans Vercel
+6. Cliquer Deploy
+
+Commandes Git:
+git init
+git add .
+git commit -m "Initial commit"
+git branch -M main
+git remote add origin TON_URL_GITHUB
+git push -u origin main
+
+En local:
+npm install
+npm run dev
